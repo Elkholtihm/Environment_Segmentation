@@ -1,0 +1,5 @@
+train: /kaggle/working/data/train
+val: /kaggle/working/data/val
+
+nc: 10
+names: ['person', 'rider', 'car', 'truck', 'bus', 'caravan', 'trailer', 'train', 'motorcycle', 'bicycle']
