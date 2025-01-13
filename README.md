@@ -4,24 +4,25 @@
 This project include implementing, training and evaluating three models U-net, DeepLabv3+ and yolo on cityscape dataset.
 
 ## repository structure 
-DeepLabv3plus/
-│
-├── model/
-│   ├── deeplabv3plus.py       # Implémentation de l'architecture du modèle
-│   ├── metrics.py             # Calcul des métriques (accuracy, mIoU, F1 Score, etc.)
-│   ├── prediction.py          # Fonctions de prédictions et visualisation
-│   └── train.py               # Script d'entraînement
-│
-└── processing/
-    └── data_processing.py     # Prétraitement des données
+DeepLabv3plus/  
+│  
+├── model/  
+│   ├── deeplabv3plus.py        # Implementation of the model architecture  
+│   ├── metrics.py              # Metrics calculation (Accuracy, mIoU, F1 Score, etc.)  
+│   ├── prediction.py           # Prediction functions and visualization  
+│   └── train.py                # Training script  
+│  
+└── processing/  
+    └── data_processing.py      # Data preprocessing script  
 
-YOLO/
-│
+YOLO/  
+│  
 
 
-U-Net/
-│
-└── image-segmentation-unet.pynb  # Implémentation et entraînement du modèle U-Net
+U-Net/  
+│  
+└── image-segmentation-unet.pynb  # Implementation and training of the U-Net model  
+
 
 
 # Repository Content  
