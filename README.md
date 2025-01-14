@@ -1,9 +1,14 @@
 # Environment_Segmentation
 
 ## Overview
-This project include implementing, training and evaluating three models U-net, DeepLabv3+ and yolo on cityscape dataset.
+This project involves implementing, training, and evaluating three models: **U-Net**, **DeepLabv3+**, and **YOLO** on the Cityscape dataset. The aim is to compare these models in terms of performance metrics such as accuracy, mean Intersection over Union (mIoU), and F1 score.
 
-## repository structure 
+---
+
+## 📂 Repository Structure
+
+### DeepLabv3plus/
+```
 DeepLabv3plus/  
 │  
 ├── model/  
@@ -14,43 +19,49 @@ DeepLabv3plus/
 │  
 └── processing/  
     └── data_processing.py      # Data preprocessing script  
+```
 
+### YOLO/
+```
 YOLO/  
-│  
+│   ├── results                 # This contains the training files results  
+│   ├── process_data.py         # This is a python file to process data (convert masks to txt annotation data)  
+│   ├── test.py                 # Use model to test  
+│   └── train.py                # Training script  
+│   └── image-segmentation-yolo.pynb  # Implementation and training of the YOLO model  
+```
 
-
+### U-Net/
+```
 U-Net/  
 │  
-└── image-segmentation-unet.pynb  # Implementation and training of the U-Net model  
-
-
-
-# Repository Content  
-
-This repository contains the implementations of three image segmentation models: **DeepLabv3+**, **YOLO**, and **U-Net**, organized into three distinct folders. Here's an overview:  
+├── image-segmentation-unet.pynb  # Implementation and training of the U-Net model  
+└── report_deepL.pdf              # Project report  
+```
 
 ---
 
-## 1. DeepLabv3+  
-This folder is structured as follows:  
-- **model/**: Contains the modules related to the DeepLabv3+ model.  
-  - `deeplabv3plus.py`: Implementation of the DeepLabv3+ model architecture (from scratch and imported).  
-  - `metrics.py`: Implementation of three key metrics:  
-    - **Accuracy**  
-    - **Mean Intersection over Union (mIoU)**  
-    - **Recall**, **F1 Score**, and **Precision**  
-  - `prediction.py`: Functions for prediction and result visualization.  
-  - `train.py`: Training function to fine-tune the model with data.  
-
-- **processing/**: Contains scripts for data preprocessing.  
-  - `data_processing.py`: Functions to prepare and preprocess data before training.  
+## Repository Content
+This repository contains implementations of three image segmentation models: **DeepLabv3+**, **YOLO**, and **U-Net**, organized into three distinct folders as described above. Each folder includes scripts for model implementation, training, and evaluation.
 
 ---
 
-## 2. YOLO  
+## Collaboration
+This project was created in collaboration with **[Anouar Bouzhar](https://github.com/anouarbouzhar)** and **[Zakariae Yahya](https://github.com/zakariaeyahya)**.
 
 ---
 
-## 3. U-Net  
-This folder contains:  
-- `image-segmentation-unet.pynb`: Jupyter Notebook script implementing and training the U-Net model on the Cityscape dataset.  
+## Used Technologies
+The project leverages the following technologies:
+
+- ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
+- ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
+- ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+- ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+
+---
+
+## Project Files and Links
+
+- **Project Report**: [View Report](https://drive.google.com/file/d/1YLYr8bskG49I0BWl_W2FsBR5lS_qE6iD/view?usp=drive_link)  
+  - all project files including training weights, datasets, other resources.
