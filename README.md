@@ -63,5 +63,5 @@ The project leverages the following technologies:
 
 ## Project Files and Links
 
-- **Project Report**: [View Report](https://drive.google.com/file/d/1YLYr8bskG49I0BWl_W2FsBR5lS_qE6iD/view?usp=drive_link)  
-  - all project files including training weights, datasets, other resources.
+- **Complete Project Files**: [Download Here](https://drive.google.com/file/d/1YLYr8bskG49I0BWl_W2FsBR5lS_qE6iD/view?usp=drive_link)  
+  - Includes training weights, datasets, and other resources.
